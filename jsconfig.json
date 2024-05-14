@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/dashboard", "app/api/auth/[...nextauth]/route.js", "app/page.jsx", "app/api/signup/route.js", "app/layout.jsx", "app/Provider.jsx"],
   "exclude": ["node_modules"]
 }
